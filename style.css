@@ -1,0 +1,12 @@
+.raya {
+   width: 80px;
+   margin-right: 10px;
+   border-bottom: 1px solid #000000;
+   float: left;
+   font-size: 40px;
+   text-align: center;
+}
+
+.botonLetra {
+   font-size: 2.5em;
+}

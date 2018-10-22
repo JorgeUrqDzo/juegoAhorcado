@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>JUEGO</title>
+   <link rel="stylesheet" href="bootswatch_4.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <div class="container">
+      <h1 class="text-center">Juego del ahorcado</h1>
+      <form id="formPalabraSecreta">
+         <div class="form-group">
+            <label for="">Palabra secreta:</label>
+            <input type="password" id="palabra" class="form-control">
+         </div>
+         <button type="button" id="btnJugar" class="btn btn-primary">Jugar</button>
+      </form>
+      <hr>
+      <h3>Intentos Fallidos:</h3>
+      <div id="fallos" class="row">
+      </div>
+      <hr>
+      <div id="botones"></div>
+      <hr>
+      <div class="areaJuego"></div>
+   </div>
+
+   <script src="jQuery-3.3.1.min.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
